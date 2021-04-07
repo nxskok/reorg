@@ -1,0 +1,66 @@
+---
+title: "reorganization"
+author: "ken"
+date: "4/7/2021"
+output: html_document
+---
+
+# Ideas for reorganization of notes etc.
+
+## lecture notes
+
+- move the choosing and selection piece to before inference
+  - add rowwise intro to that (with list-columns?)
+- change all the `map` stuff to  `rowwise`, including simulations (power and bootstrap, etc)
+
+## PASIAS
+
+- move the chapter on choosing and selection to before inference
+- subdivide the chapters to correspond better to the pieces of lecture notes including for D29
+- edit out all the `map` stuff and replace by `rowwise` (in the same manner as lecture notes)
+
+## D29 
+
+- also get rid of `map`
+- make sure all the `gather`/`spread` is gone
+- introduce some new examples (maybe more realistic ones?)
+
+
+## plan of attack
+
+- start with C32 lecture notes
+- move choosing piece and think about tidying piece (I think it can stay)
+- move choosing chapter in pasias
+- add rowwise piece to notes, after the `join` stuff
+  - list columns
+  - nest_by - unnest
+- maybe turn bootstrap piece into more general discussion of simulation (or not, leaving it for C33)
+- take out `map` discussion from notes, wherever it appears
+
+- see if any problems replacing all `map` by `rowwise`
+
+- split chapters of PASIAS for C32-C33
+
+- add problems from recent assignments to pasias
+
+- get `gather`-`spread` out of D29
+- new examples
+- split PASIAS for this too
+
+- make sure nothing old left in PASIAS (gather/spread/map)
+
+## tidying/choosing chapter of PASIAS
+
+- split thus:
+  - tidying jays data: choosing
+  - baseball and softball spaghetti: tidying (has gather in it)
+  - ethanol and sleep time in rats: tidying
+  - growth of tomatoes: tidying
+  - pain relief in migraines: tidying
+  - location, species and disease: tidying
+  - mating songs in crickets: tidying
+  - cars: choosing
+  - number 1 songs: tidying
+  - bikes on College: tidying
+  - feeling the heat: tidying
+  
