@@ -49,18 +49,6 @@ output: html_document
 
 - make sure nothing old left in PASIAS (gather/spread/map)
 
-## tidying/choosing chapter of PASIAS
 
-- split thus:
-  - tidying jays data: choosing
-  - baseball and softball spaghetti: tidying (has gather in it)
-  - ethanol and sleep time in rats: tidying
-  - growth of tomatoes: tidying
-  - pain relief in migraines: tidying
-  - location, species and disease: tidying
-  - mating songs in crickets: tidying
-  - cars: choosing
-  - number 1 songs: tidying
-  - bikes on College: tidying
-  - feeling the heat: tidying
-  
+- c33:
+  - cmdstan
