@@ -53,4 +53,8 @@ output: html_document
 - c33:
   - cmdstan
   
-  
+## re-recording
+
+- c32 
+  - inference2
+  - functions
