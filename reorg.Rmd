@@ -10,8 +10,8 @@ output: html_document
 ## lecture notes
 
 - move the choosing and selection piece to before inference
-  - add rowwise intro to that (with list-columns?)
-- change all the `map` stuff to  `rowwise`, including simulations (power and bootstrap, etc)
+  - add rowwise intro to that (with list-columns?) DONE needs editing
+- change all the `map` stuff to  `rowwise`, including simulations (power and bootstrap, etc) in  progress
 
 ## PASIAS
 
