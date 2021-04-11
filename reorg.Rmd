@@ -11,7 +11,7 @@ output: html_document
 
 - move the choosing and selection piece to before inference
   - add rowwise intro to that (with list-columns?) DONE needs editing
-- change all the `map` stuff to  `rowwise`, including simulations (power and bootstrap, etc) in  progress
+- change all the `map` stuff to  `rowwise`, including simulations (power and bootstrap, etc) done
 
 ## PASIAS
 
@@ -53,8 +53,12 @@ output: html_document
 - c33:
   - cmdstan
   
-## re-recording
+## re-recording because of map/rowwise
 
 - c32 
   - inference2
   - functions
+  - bootstrap
+  - rstan (with cmdstan anyway, still need to rewrite)
+  - inference3
+  
