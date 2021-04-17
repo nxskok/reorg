@@ -10,20 +10,24 @@ output: html_document
 ## lecture notes
 
 - move the choosing and selection piece to before inference
-  - add rowwise intro to that (with list-columns?) DONE needs editing
+- add rowwise intro to that (with list-columns?) DONE needs editing
 - change all the `map` stuff to  `rowwise`, including simulations (power and bootstrap, etc) done
+- change `rstan` to `cmdstanr`
 
 ## PASIAS
 
 - move the chapter on choosing and selection to before inference
 - subdivide the chapters to correspond better to the pieces of lecture notes including for D29
 - edit out all the `map` stuff and replace by `rowwise` (in the same manner as lecture notes)
+- `summarize_at` etc (do with `across`) DONE
+- cmdstan replaces rstan
 
 ## D29 
 
-- also get rid of `map`
+- also get rid of `map` DONE
 - make sure all the `gather`/`spread` is gone
 - introduce some new examples (maybe more realistic ones?)
+- make the map stuff leaflet rather than ggmap
 
 
 ## plan of attack
@@ -43,7 +47,7 @@ output: html_document
 
 - add problems from recent assignments to pasias
 
-- get `gather`-`spread` out of D29
+- get `gather`-`spread` out of D29 DONE
 - new examples
 - split PASIAS for this too
 
@@ -62,3 +66,8 @@ output: html_document
   - rstan (with cmdstan anyway, still need to rewrite)
   - inference3
   
+- d29 
+  - discrim (can probably avoid)
+  - cluster
+  - time series (not recorded anyway)
+  - anova
