@@ -12,23 +12,33 @@ output: html_document
 - move the choosing and selection piece to before inference  done
 - add rowwise intro to that (with list-columns?) DONE needs editing
 - change all the `map` stuff to  `rowwise`, including simulations (power and bootstrap, etc) done
-- change `rstan` to `cmdstanr`
+- change `rstan` to `cmdstanr` done in notes, now PASIAS
+- have one project for all the lecture notes
 
 ## PASIAS
 
-- move the chapter on choosing and selection to before inference
+- move the chapter on choosing and selection to before inference done
 - subdivide the chapters to correspond better to the pieces of lecture notes including for D29
 - edit out all the `map` stuff and replace by `rowwise` (in the same manner as lecture notes)
 - `summarize_at` etc (do with `across`) DONE
-- cmdstan replaces rstan
+- cmdstanr replaces rstan done
+- `_if` and `_at` done
+- do the actual maps with leaflet
 
 ## D29 
 
 - also get rid of `map` DONE
-- make sure all the `gather`/`spread` is gone
+- make sure all the `gather`/`spread` is gone done
 - introduce some new examples (maybe more realistic ones?)
-- make the map stuff leaflet rather than ggmap
+- make the map stuff leaflet rather than ggmap done
+- `_if` and `_at` done
+- make mapping.Rmd into slides  done
 
+## data files
+
+- move these off banks and onto the website. done.
+- change links in notes and pasias
+- create a repo called datafiles for them. done
 
 ## plan of attack
 
