@@ -12,18 +12,20 @@ output: html_document
 - move the choosing and selection piece to before inference  done
 - add rowwise intro to that (with list-columns?) DONE needs editing
 - change all the `map` stuff to  `rowwise`, including simulations (power and bootstrap, etc) done
-- change `rstan` to `cmdstanr` done in notes, now PASIAS
-- have one project for all the lecture notes
+- change `rstan` to `cmdstanr` done in notes, now PASIAS done
+- have one project for all the lecture notes done
+- change urls for data files done
 
 ## PASIAS
 
 - move the chapter on choosing and selection to before inference done
 - subdivide the chapters to correspond better to the pieces of lecture notes including for D29
-- edit out all the `map` stuff and replace by `rowwise` (in the same manner as lecture notes)
+- edit out all the `map` stuff and replace by `rowwise` (in the same manner as lecture notes) done
 - `summarize_at` etc (do with `across`) DONE
 - cmdstanr replaces rstan done
 - `_if` and `_at` done
-- do the actual maps with leaflet
+- do the actual maps with leaflet done
+- change urls from utsc ones
 
 ## D29 
 
@@ -51,7 +53,7 @@ output: html_document
 - maybe turn bootstrap piece into more general discussion of simulation (or not, leaving it for C33)
 - take out `map` discussion from notes, wherever it appears
 
-- see if any problems replacing all `map` by `rowwise`
+- see if any problems replacing all `map` by `rowwise` (none found yet)
 
 - split chapters of PASIAS for C32-C33
 
