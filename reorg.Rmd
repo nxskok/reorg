@@ -19,13 +19,18 @@ output: html_document
 ## PASIAS
 
 - move the chapter on choosing and selection to before inference done
-- subdivide the chapters to correspond better to the pieces of lecture notes including for D29
+- subdivide the chapters to correspond better to the pieces of lecture notes including for D29 done
 - edit out all the `map` stuff and replace by `rowwise` (in the same manner as lecture notes) done
 - `summarize_at` etc (do with `across`) DONE
 - cmdstanr replaces rstan done
 - `_if` and `_at` done
 - do the actual maps with leaflet done
-- change urls from utsc ones
+- change urls from utsc ones done
+- add problems on
+  - bootstrap for assumptions
+  - vector and matrix algebra
+  - making maps with leaflet (cross city) done
+- add old assignment problems
 
 ## D29 
 
@@ -39,7 +44,7 @@ output: html_document
 ## data files
 
 - move these off banks and onto the website. done.
-- change links in notes and pasias
+- change links in notes and pasias done
 - create a repo called datafiles for them. done
 
 ## plan of attack
